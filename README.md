@@ -2,11 +2,11 @@
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://rest-countries-api-beka.netlify.app
 
 ### Built with
 
 - HTML5
-- SCSS (Flexbox, CSS Grid, CSS custom properties)
-- JS
+- CSS (Flexbox, CSS Grid, CSS custom properties)
+- REACT
 - API
