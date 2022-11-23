@@ -1,0 +1,36 @@
+.loading-spinner {
+  display: block;
+  margin: 10rem auto 0 auto;
+}
+
+.countries-box,
+.search-output {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem;
+}
+@media (max-width: 64em) {
+  .countries-box,
+  .search-output {
+    gap: 3rem;
+  }
+}
+@media (max-width: 48em) {
+  .countries-box,
+  .search-output {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 26.57em) {
+  .countries-box,
+  .search-output {
+    grid-template-columns: 1fr;
+    padding: 0 3rem;
+  }
+}
+@media (max-width: 23.44em) {
+  .countries-box,
+  .search-output {
+    padding: 0 2rem;
+  }
+}

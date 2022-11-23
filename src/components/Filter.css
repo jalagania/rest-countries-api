@@ -1,0 +1,44 @@
+.filter-box {
+  width: 20rem;
+  font-weight: 600;
+  position: relative;
+}
+
+.filter-head {
+  padding: 1.5rem 2rem;
+  margin-bottom: 0.5rem;
+  background-color: var(--elements);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arrow-icon {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--text);
+  transition: all 0.3s;
+}
+
+.filter-body {
+  width: 100%;
+  padding: 1.5rem 2rem;
+  line-height: 2;
+  border-radius: 0.5rem;
+  background-color: var(--elements);
+  position: absolute;
+  top: 5.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.region {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.region:hover {
+  color: #ff2337;
+}
