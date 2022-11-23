@@ -50,7 +50,6 @@ function App() {
     }
     setError(false);
     setCountries(data);
-    console.log(data);
   }
 
   // Filters Countries by Region
@@ -102,6 +101,15 @@ function App() {
 
   useEffect(() => {
     displayCountries();
+
+    document.addEventListener("click", function (event) {
+      if (
+        !event.target.closest(".filter-body") &&
+        !event.target.closest(".filter-head")
+      ) {
+        setShowFilter(false);
+      }
+    });
   }, []);
 
   useEffect(() => {
