@@ -72,7 +72,7 @@ function CountryDetails(props) {
               </div>
               <div className="right-box">
                 <p className="domain">
-                  Top Level Domain: <span>{props.countryInfo[0].tld[0]}</span>
+                  Top Level Domain: <span>{props.countryInfo[0].tld?.[0]}</span>
                 </p>
                 <p className="currencies">
                   Currencies:{" "}
